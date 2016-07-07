@@ -54,6 +54,6 @@ int multi(int number1, int number2)
  
 int div(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+	if(!number2) return NaN;
+	else return(number1/number2);
 }
